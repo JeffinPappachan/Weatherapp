@@ -152,6 +152,11 @@ export default function Page() {
           </motion.div>
         )}
       </div>
+
+      {/* Footer */}
+      <footer className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+        <p className="text-white/80 text-sm">made by jeffin with 💗</p>
+      </footer>
     </div>
   );
 }
